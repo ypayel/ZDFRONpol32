@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wrapper {
+  background-color: gray;
+  width: 500px;
+  display: flex;
+  // dodawanie odleglosci miedzy elementami w flexbox
+  gap: 10px;
+}
+
+.wrapper > .block-article {
+  width: 200px;
+  background-color: red;
+}
